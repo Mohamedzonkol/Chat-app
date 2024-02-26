@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./chat.css" />
+    <title>Online Chatting</title>
+  
+   
+</head>
+<body>
+    <div class="container content">
+        <div class="row">
+            <div id="publicTalk" class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="card">
+                    <div class="card-header">Chat</div>
+                    <div class="card-body height3">
+                        <ul id="conversation" class="chat-list">
+                        </ul>
+                    </div>
+                    <form >
+                                                <div class="chat-body">
+                            <div class="chat-message">
+                                <input type="text" id="messageInp" style="border:none"/>
+                                <input type="submit" id="sendMessageBtn" value="Send" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="./main.js"></script>
+
+</body>
+</html>
